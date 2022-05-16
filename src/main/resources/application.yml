@@ -1,0 +1,14 @@
+server:
+  port: 80
+spring:
+  mvc:
+    servlet:
+      path: /api
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    username: postgres
+    password: root123
+    url: jdbc:postgresql://localhost:5432/mapstruct_api
+  jpa:
+    hibernate:
+      ddl-auto: create
